@@ -5,3 +5,6 @@
       $env:CGO_ENABLE=0
       $env:GOOS="linux"
       go build -o deploy-tools
+
+2. 启动
+   ./deploy-tools
